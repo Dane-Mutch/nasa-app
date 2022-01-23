@@ -78,11 +78,6 @@ const Home: NextPage = () => {
       }
     })
 
-    // if (values.mediaType === 'audio') {
-    //   setAudioResults(successfulResults)
-    // } else {
-    //   setImageResults(successfulResults)
-    // }
     setResults(successfulResults)
     setIsApiLoading(false)
     setContentType(values.mediaType)
